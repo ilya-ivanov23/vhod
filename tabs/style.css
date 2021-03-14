@@ -1,0 +1,97 @@
+body {background: rgb(146, 242, 255,.15) url(http://pcvector.net/templates/pcv/images/bg_grid.png);
+    
+    
+}
+
+div.tabscontainer{
+    margin:15px 0px;
+}
+
+div.tabscontainer div.tabs{
+    position: relative;
+    left: 1248px;
+    top: -14px;
+    width: 280px;
+    padding: 35px 30px;
+    background-color: #fff;
+    box-sizing: border-box;
+    margin: 0;
+  
+    font-family: Roboto,sans-serif;
+}
+div.tabscontainer div.tabs h3 {
+    font-weight: 700;
+    font-size: 16px
+}
+
+div.tabscontainer div.curvedContainer{
+	margin-left: 162px;
+
+	min-height:400px;
+	-moz-border-radius: 13px;
+	border-radius: 13px;
+}
+
+div.tabscontainer div.curvedContainer .tabcontent{
+	display:none;
+	padding:20px;
+	font-size:12px;
+	font-family: Roboto,sans-serif;
+}
+
+div.tabs div.tab{
+    display: block;
+    position: relative;
+   	color: #929292;
+       font-size: 22px;
+    font-weight: 700;
+}
+
+
+div.tabs div.link{
+	padding-left: 20px;
+	padding-top:10px;
+	font-family: Roboto,sans-serif;
+   
+}
+
+div.tabs div.tab.selected{
+    color: #000000;
+    border-right-color: #aeaeaa;
+}
+
+div.tabs div.tab.selected{
+    background: url(menuSelBack.png) no-repeat;
+    border-radius: 0px;
+    border-right-color: #000000;
+}
+
+div.tabs div.tab.first{
+
+	-moz-border-radius-topleft: 13px;
+	border-top-left-radius: 13px;
+}
+
+div.tabs div.tab.last{
+	-moz-border-radius-bottomleft: 13px;
+	border-bottom-left-radius: 13px;
+}
+
+div.tabs div.tab div.arrow{
+    position: absolute;
+   
+    height: 58px;
+    width: 17px;
+    left: 100%;
+    top: 0px;
+    display: none;
+}
+
+div.tabs div.tab.selected div.arrow{
+    display: block;
+}
+img#hah {
+    position: relative;
+    width: 1065px;
+    top: -413px;
+}
